@@ -1,0 +1,76 @@
+
+@import "tailwindcss";
+
+/* 🌌 Define Tailwind Theme Variables */
+@theme {
+  /* 🌟 Jedi (Light Mode) */
+  --color-galactic-gray: #2F4F4F;  /* (Background) */
+  --color-space-silver: #E0E0E0;  /* (Text & UI Elements) */
+  --color-moss-green: #8A9A5B;  /* (Subtle Accents) */
+  --color-olive-green: #6B8E23;  /* (Vibrant Accents) */
+  --color-alien-green: #A8D1A1;  /* (Glow / Highlights) */
+  --color-galactic-gold: #FFD700;   /* (Headers, Buttons, Special Effects) */
+
+  /* ⚔️ Sith (Dark Mode) */
+  --color-sith-red: #C91E27;/* Call-to-Actions) */
+  --color-dark: #030303; /*background */
+  --color-text-primary: #E1E4E6;  /*Primary Text*/
+  --color-ui: #262626; /* UI elements */
+  --color-subtext: #B3BDC9; /* Subtext  */
+  --color-border: #848A7D;/* Borders */
+  --color-glow: #F5D3B8;/* Hover Effects */
+
+
+  --font-title: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+}
+
+body {
+  background-color: var(--color-galactic-gray);
+  color: var(--color-space-silver);
+  font-family: var(--font-body);
+}
+
+/* 🔥 Sith Mode (Overrides on Dark Mode) */
+[data-theme="sith"] {
+  background-color: var(--color-dark);
+  color: var(--color-text-primary);
+}
+
+/* 🔥 Headings */
+h1, h2, h3 {
+  color: var(--color-galactic-gold);
+  font-family: var(--font-title);
+}
+
+/* 🚀 Buttons */
+button {
+  background-color: var(--color-olive-green);
+  color: var(--color-space-silver);
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--color-moss-green);
+}
+
+/* 🎨 Sith Mode Headings */
+[data-theme="sith"] h1, 
+[data-theme="sith"] h2, 
+[data-theme="sith"] h3 {
+  color: var(--color-sith-red);
+}
+
+/*  Sith Mode Buttons */
+[data-theme="sith"] button {
+  background-color: var(--color-sith-red);
+  color: var(--color-text-primary);
+}
+
+[data-theme="sith"] button:hover {
+  background-color: var(--color-glow);
+}
+
