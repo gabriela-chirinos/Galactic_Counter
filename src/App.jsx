@@ -3,6 +3,13 @@ import "./App.css";
 import ThemeToggle from "./components/Toggle";
 import HeaderElement from "./components/Header";
 import LogoElement from "./components/Logo";
+import TextAreaElement from "./components/Textarea";
+
+
+
+
+
+
 function App() {
   // Load theme from localStorage or default to 'jedi'
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "jedi");
@@ -19,6 +26,8 @@ function App() {
       <ThemeToggle theme={theme} setTheme={setTheme} />
       <HeaderElement theme={theme} setTheme={setTheme} />
       <LogoElement />
+      <TextAreaElement />
+      
     </>
   );
 }
