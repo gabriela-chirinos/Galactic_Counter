@@ -1,16 +1,12 @@
-import logo from  "../assets/clock.jpg"
+import logo from  "../assets/a94n_p5se_210802.jpg"
 
 export default function Logo() {
   return (
-    <div className="flex justify-center items-center gap-6 text-space-silver">
+    <div className="flex  justify-between items-center gap-10 w-5/6 mx-auto">
       {/* Logo Image */}
-      <img 
-        src={logo} 
-        alt="Galactic Counter Logo" 
-        className="h-14 w-auto md:h-16 lg:h-20" // Scales on mobile & desktop
-      />
-      {/* Title */}
-      <h1 className="text-[1.2rem] md:text-4xl text-space-silver text-center mx-10">
+    
+    
+      <h1 className=" flex-1 text-2xl  text-center md:text-4xl lg:text-5xl mb-3">
         Analyze your text in real-time.
       </h1>
     </div>
