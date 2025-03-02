@@ -1,11 +1,12 @@
 Galactic Word Counter 🚀🪐
+
 A sci-fi inspired text analyzer that dynamically counts characters, words, and sentences in real-time.
 
 ![Galactic Word Counter Demo](public/gif.gif)
 
 📜 Overview
 
-The Galactic Word Counter is a minimalist yet powerful tool that: ✅ Counts characters, words, and sentences dynamically.
+The Galactic Word Counter is a minimalist yet powerful  little tool that: ✅ Counts characters, words, and sentences dynamically.
 
 ✅ Excludes spaces from character count.
 ✅ Estimates reading time for the given text.
@@ -21,7 +22,8 @@ Built using:
 
 🎯 The Process
 
-1️⃣ Initial Vision
+1️⃣ Initial Vision:
+
 The project started as a Star Wars-inspired UI, featuring a dynamic dark vs light mode toggle (Jedi vs Sith themes). However, as development progressed, a key realization was made:
 
 🔹 Simplification is key.
@@ -35,24 +37,7 @@ Instead of focusing on extra features, the project pivoted toward completing the
 ✅ Ensured accessibility & usability.
 ✅ Prioritized completion over complexity.
  
-📂 File Structure
-css
-CopyEdit
-/Galactic_Counter
-│── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Logo.jsx
-│   │   ├── TextArea.jsx
-│   │   ├── StatTiles.jsx
-│   │   ├── LetterDensity.jsx
-│   │   ├── Toggle.jsx (Not in use, but left for future scalability)
-│   ├── App.jsx
-│   ├── index.css
-│   ├── main.jsx
-│── public/
-│── package.json
-│── README.md
+
 •	App.jsx → Manages state & renders components.
 •	TextArea.jsx → Text input & real-time updates.
 •	StatTiles.jsx → Displays character, word & sentence counts.
@@ -66,13 +51,14 @@ Originally, the project included Jedi vs Sith themes. However, through iteration
 •	The option remains open for future improvements with the existing Toggle component.
 🎯 Key Takeaway: "It’s better to finish a functional project than get stuck chasing unnecessary perfection."
  
-💡 Future Enhancements
+💡 Future Enhancements:
+
 🔹 Reintroduce theme switching when necessary.
 🔹 Add text-to-speech integration for accessibility.
 🔹 Improve animations & transitions for a smoother UX.
 🔹 Expand text analytics (reading time, most used words, etc.).
 
-This project serves as a great example of balancing learning, efficiency, and practicality in frontend development. 🚀
+This project serves as a great example of balancing learning, efficiency, and practicality. 
 
 
 
