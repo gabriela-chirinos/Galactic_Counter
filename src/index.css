@@ -54,5 +54,6 @@ button:hover {
 }
 
 [data-theme="sith"] button:hover {
-  background-color: var(--color-glow); /* Uses the Sith Red Glow */
+  background-color: var(--color-glow); /* Uses the Sith Red Glow */ 
+ /* change */
 }
